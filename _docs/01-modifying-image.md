@@ -71,7 +71,7 @@ public void process(Bitmap destBitmap, Bitmap sourceBitmap) {
 源图片和目标图片具有相同的大小。
 
  - 不要修改源图片。在未来的版本中这会抛出一个异常。
- - 不要保存对任何一个图片的引用。它们的内存会由 image pipeline 进行管理，目标图片会在 Drawww 或 DataSource 中正常地销毁。
+ - 不要保存对任何一个图片的引用。它们的内存会由 image pipeline 进行管理，目标图片会在 Drawee 或 DataSource 中正常地销毁。
 
 ## 复制成不同大小
 
